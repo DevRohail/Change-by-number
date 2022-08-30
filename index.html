@@ -7,7 +7,7 @@
     <title>Change by number</title>
 </head>
 <body>
-    <style> 
+   <!-- <style> 
         .left {
           
           width: 640px;
@@ -19,9 +19,9 @@
           
           width: 640px;
           height:640px;
-          background-color: rgb(24, 83, 133);
+          background-color: rgb(26, 133, 24);
           margin: 0%;
-          align-items: center;
+          float: right;
         }
 
         body {
@@ -30,16 +30,50 @@
 }
 
         </style>
-<div class="left">
-<input type="text" name="type" >
+        -->
+        <style>
+
+#leftbox {
+                float:left; 
+                background:Red;
+                width: 509px;
+                height: 749px;
+                margin: -2px;
+                padding: 0px;
+            }
+            #middlebox{
+                float: left; 
+                background:Green;
+                width: 510px;
+                height: 748px;; 
+                margin: -2px;
+                padding: 0px;
+            }
+            #rightbox{
+                float:left;
+                background:blue;
+                width: 510px;
+                height: 748px;
+                margin: -2px;
+                padding: 0px;
+                
+            }
+            body {
+    display: block;
+    margin: 0px;
+            }
+        </style>
+<div id="leftbox">
+
+
     
 </div>
 
-<div class="center">
+<div id="middlebox">
 
 </div>
 
-<div class="right">
+<div id="rightbox">
 
 </div>
 
