@@ -1,0 +1,35 @@
+#leftbox {
+    float:left; 
+    background:Red;
+    width: 509px;
+    height: 374px;
+    margin: -2px;
+    padding-top: 374px;
+    
+}
+#middlebox{
+    float: left; 
+    background:Green;
+    width: 509px;
+    height: 374px;
+    margin: -2px;
+    padding-top: 374px;
+   }
+#rightbox{
+    float:left;
+    background:blue;
+    width: 509px;
+    height: 374px;
+    margin: -2px;
+    padding-top: 374px;
+    
+    
+}
+body {
+display: block;
+margin: 0px;
+}
+input[type=text]{
+    align-items: center;
+    padding: 0px;
+}

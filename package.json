@@ -1,0 +1,19 @@
+{
+  "name": "change-by-number",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevRohail/Change-by-number.git"
+  },
+  "author": "Rohail Ahmed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevRohail/Change-by-number/issues"
+  },
+  "homepage": "https://github.com/DevRohail/Change-by-number#readme"
+}
